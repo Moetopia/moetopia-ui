@@ -1,0 +1,4 @@
+node_modules/
+.storybook-cache/
+storybook-static/
+*.tgz
