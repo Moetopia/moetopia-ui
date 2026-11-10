@@ -21,7 +21,7 @@ onBeforeUnmount(() => media?.removeEventListener('change', closeOnDesktop))
       <DialogTrigger as-child><Button class="moe-navbar-toggle" variant="light" color="default" icon-only :aria-label="menuLabel"><Icon name="menu" /></Button></DialogTrigger>
       <DialogPortal>
         <DialogOverlay class="moe-dialog-overlay fixed inset-0 z-40 bg-overlay" />
-        <DialogContent class="moe-drawer moe-drawer-left" :aria-describedby="undefined">
+        <DialogContent class="moe-drawer moe-drawer-left" aria-describedby="">
           <div class="moe-drawer-heading"><DialogTitle class="font-semibold">{{ label }}</DialogTitle><DialogClose as-child><Button icon-only variant="light" color="default" :aria-label="closeLabel"><Icon name="close" /></Button></DialogClose></div>
           <nav :aria-label="label" class="moe-mobile-nav"><NavItem v-for="item in mobileItems ?? items" :key="item.id" :item="item" :active="active === item.id" @navigate="navigate" /></nav>
           <div v-if="$slots['mobile-footer']" class="mt-auto border-t border-line pt-4"><slot name="mobile-footer" /></div>
