@@ -13,7 +13,7 @@ const emit = defineEmits<{ openAutoFocus: [event: Event] }>()
     <DialogTrigger v-if="$slots.trigger" as-child><slot name="trigger" /></DialogTrigger>
     <DialogPortal>
       <DialogOverlay class="moe-dialog-overlay fixed inset-0 z-40 bg-overlay" />
-      <DialogContent class="moe-popup moe-dialog fixed top-1/2 left-1/2 z-50 grid max-h-[calc(100svh-2rem)] -translate-x-1/2 -translate-y-1/2 gap-4 overflow-y-auto p-6 focus:outline-none" :data-size="size" :aria-describedby="description ? undefined : ''" @open-auto-focus="emit('openAutoFocus', $event)">
+      <DialogContent class="moe-popup moe-dialog fixed top-1/2 left-1/2 z-50 grid max-h-[calc(100svh-2rem)] -translate-x-1/2 -translate-y-1/2 gap-4 overflow-y-auto p-6 focus:outline-none" :data-size="size" v-bind="description ? {} : { 'aria-describedby': '' }" @open-auto-focus="emit('openAutoFocus', $event)">
         <div class="moe-dialog-heading"><DialogTitle class="text-xl font-bold">{{ title }}</DialogTitle><DialogClose as-child><Button icon-only size="sm" variant="light" color="default" :aria-label="closeLabel"><Icon name="close" /></Button></DialogClose></div>
         <DialogDescription v-if="description" class="text-sm leading-6 text-muted">{{ description }}</DialogDescription>
         <slot />
