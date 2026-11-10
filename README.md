@@ -7,3 +7,5 @@ Moetopia 生态共享 Vue 组件、品牌变量和通用布局的唯一源码仓
 当前远程仓未发布；本地用 pnpm pack --pack-destination <output> 生成包，记录来源提交与 SHA-256。消费者仅安装归档，禁止直接改包或导入相邻源码。建立远程后以固定 Git 提交消费。
 
 规范见 [AGENTS](AGENTS.md)。品牌和插画沿用来源素材，不代表游戏素材许可。本仓未新增 LICENSE 或作素材再授权承诺。
+
+完整的统一参数、组件契约与导航/动效说明见 [组件参考](docs/component-reference.md)。
