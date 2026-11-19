@@ -26,7 +26,9 @@
   .moe-breadcrumbs a { border-radius: 3px; transition: color var(--moe-motion-fast); }
   .moe-breadcrumbs a:hover { color: var(--moe-primary-ink); }
   .moe-breadcrumbs [aria-current] { color: var(--moe-foreground); }
-  .moe-dropdown { min-width: 220px; max-width: min(340px, calc(100vw - 24px)); }
+  .moe-dropdown { min-width: 224px; max-width: min(340px, calc(100vw - 24px)); }
+  .moe-menu-header { padding: 8px 10px 10px; margin-bottom: 4px; border-bottom: 1px solid var(--moe-line); }
+  .moe-account-header { display: flex; align-items: center; gap: 10px; min-width: 0; }
   .moe-menu-heading { padding: 9px 10px; font-size: 12px; color: var(--moe-muted); }
   .moe-menu-item { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 10px; outline: none; border-radius: var(--moe-radius-control); font-size: 14px; cursor: default; transition: background-color var(--moe-motion-fast), color var(--moe-motion-fast); }
   .moe-menu-item > svg { flex-shrink: 0; }

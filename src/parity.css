@@ -24,6 +24,7 @@
   .moe-copy-control { display: inline-flex; flex-wrap: wrap; gap: 8px; }
   .moe-feature-grid { display: grid; gap: 24px; }
   .moe-stat-grid { display: grid; gap: 24px; }
+  .moe-stat-icon { display: grid; place-items: center; width: 40px; height: 40px; flex-shrink: 0; border-radius: 10px; background: var(--moe-accent); color: var(--moe-primary-ink); }
   .moe-stat-value { margin-top: 12px; font-size: 30px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .moe-admin-actions { display: grid; gap: 16px; }
   .moe-landing-intro { padding-block: 48px; }

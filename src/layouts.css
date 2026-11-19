@@ -2,13 +2,15 @@
   .moe-page-frame { display: flex; flex-direction: column; min-height: 100svh; background: var(--moe-background); color: var(--moe-foreground); }
   .moe-skip-link { position: fixed; z-index: 100; top: 12px; left: 12px; padding: 12px 16px; border-radius: var(--moe-radius-control); background: var(--moe-surface); color: var(--moe-primary-ink); transform: translateY(-180%); }
   .moe-skip-link:focus { transform: translateY(0); }
-  .moe-page-header { position: sticky; z-index: 30; top: 0; border-bottom: 1px solid var(--moe-line); background: var(--moe-surface); }
+  .moe-page-header { position: sticky; z-index: 30; top: 0; border-bottom: 1px solid var(--moe-line); background: color-mix(in srgb, var(--moe-surface) 88%, transparent); backdrop-filter: blur(12px); }
   .moe-page-header-inner { width: min(100%, 1240px); margin-inline: auto; }
   .moe-page-header-inner .moe-navbar { min-height: 76px; border-bottom: 0; background: transparent; padding-inline: 28px; }
   .moe-page-main { flex: 1; width: min(100%, 1240px); margin-inline: auto; padding: 36px 28px 48px; outline: none; }
   .moe-page-main :where(section[id]) { scroll-margin-top: 108px; }
   .moe-page-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; width: min(100%, 1240px); margin-inline: auto; padding: 20px 28px 28px; color: var(--moe-muted); font-size: 12px; }
-  .moe-navbar-subtitle { display: block; margin-top: 3px; font-size: 11px; font-weight: 400; letter-spacing: 0; color: var(--moe-muted); }
+  .moe-navbar-wordmark { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+  .moe-navbar-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: 600; color: var(--moe-foreground); }
+  .moe-navbar-subtitle { display: block; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; font-weight: 400; letter-spacing: 0; color: var(--moe-muted); }
   .moe-auth-layout { display: grid; align-items: center; gap: 48px; width: min(100%, 1080px); min-height: calc(100svh - 230px); margin-inline: auto; }
   .moe-auth-form { width: min(100%, 460px); margin-inline: auto; }
   .moe-auth-art { display: none; min-width: 0; }
@@ -41,7 +43,7 @@
   .moe-auth-column { display: flex; flex-direction: column; min-width: 0; padding: 28px clamp(24px, 4vw, 64px); }
   .moe-auth-header, .moe-auth-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
   .moe-auth-header { flex-shrink: 0; }
-  .moe-auth-header .moe-navbar-brand { font-size: 18px; }
+  .moe-auth-header .moe-navbar-brand { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; letter-spacing: 0; }
   .moe-auth-main { display: flex; flex: 1; align-items: center; width: min(100%, 416px); margin-inline: auto; padding-block: 56px; outline: none; }
   .moe-auth-main > * { width: 100%; }
   .moe-auth-footer { color: var(--moe-muted); font-size: 12px; padding-block: 12px; }

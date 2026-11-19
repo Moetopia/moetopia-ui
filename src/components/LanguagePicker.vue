@@ -2,14 +2,14 @@
 import { computed } from 'vue'
 import { SelectRoot, SelectTrigger, SelectValue, SelectPortal, SelectContent, SelectViewport, SelectItem, SelectItemText, SelectItemIndicator } from 'reka-ui'
 import Icon from './Icon.vue'
-import type { MoeOption } from '../types'
+import type { MoeOption, MoeSize } from '../types'
 const model = defineModel<string>()
-const props = defineProps<{ label: string; options: readonly (MoeOption & { shortLabel?: string })[]; disabled?: boolean }>()
+const props = withDefaults(defineProps<{ label: string; options: readonly (MoeOption & { shortLabel?: string })[]; disabled?: boolean; size?: MoeSize }>(), { size: 'sm' })
 const current = computed(() => props.options.find(option => option.value === model.value))
 </script>
 <template>
   <SelectRoot v-model="model" :disabled="disabled">
-    <SelectTrigger class="moe-language-picker moe-control moe-focus moe-disabled" :aria-label="label" :title="current?.label" data-size="md">
+    <SelectTrigger class="moe-language-picker moe-control moe-focus moe-disabled" :aria-label="label" :title="current?.label" :data-size="size">
       <Icon name="languages" /><SelectValue :placeholder="label">{{ current?.shortLabel ?? current?.label }}</SelectValue><Icon name="chevron-down" class="moe-select-chevron" />
     </SelectTrigger>
     <SelectPortal><SelectContent class="moe-popup moe-popover moe-language-menu" position="popper" align="end" :side-offset="8"><SelectViewport>

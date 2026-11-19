@@ -9,3 +9,7 @@ export const Sun: Story = { args: { name: 'sun' } }
 export const Eye: Story = { args: { name: 'eye' } }
 export const EyeOff: Story = { args: { name: 'eye-off' } }
 export const Arrow: Story = { args: { name: 'arrow-right' } }
+export const Users: Story = { args: { name: 'users' } }
+export const Key: Story = { args: { name: 'key' } }
+export const Activity: Story = { args: { name: 'activity' } }
+export const Chart: Story = { args: { name: 'chart' } }

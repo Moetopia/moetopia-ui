@@ -5,9 +5,9 @@
     .moe-page-frame[data-rail='true'] { display: grid; grid-template-columns: auto minmax(0, 1fr); }
     .moe-page-rail { display: block; position: sticky; align-self: start; top: 0; height: 100svh; overflow-y: auto; }
     .moe-page-rail .moe-sidebar { width: 256px; min-height: 100svh; border-radius: 0; border-width: 0 1px 0 0; }
-    .moe-page-rail .moe-sidebar[data-collapsed='true'] { width: 72px; }
+    .moe-page-rail .moe-sidebar[data-collapsed='true'] { width: 64px; }
   }
-  .moe-language-picker { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 100px; padding: 8px 10px; border: 1px solid transparent; background: transparent; color: var(--moe-foreground); font-size: 13px; cursor: pointer; }
+  .moe-language-picker { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 88px; min-height: 36px; height: 36px; padding: 6px 10px; border: 1px solid transparent; background: transparent; color: var(--moe-foreground); font-size: 13px; cursor: pointer; }
   .moe-language-picker:hover:not(:disabled), .moe-language-picker[data-state='open'] { background: var(--moe-surface-raised); border-color: var(--moe-line); }
   .moe-language-picker > svg { width: 18px; height: 18px; }
   .moe-language-picker > .moe-select-chevron { width: 14px; height: 14px; }
