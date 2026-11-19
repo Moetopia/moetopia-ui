@@ -59,7 +59,7 @@
   .moe-badge[data-variant='bordered'] { background: transparent; border-color: currentColor; }
   .moe-badge[data-variant='solid'] { background: var(--moe-solid); color: var(--moe-on-tone); }
   .moe-alert { padding: 12px 14px; border: 1px solid var(--moe-line); border-left: 3px solid var(--moe-ink); border-radius: var(--moe-radius-control); background: var(--moe-soft); }
-  .moe-card { overflow: hidden; border: 1px solid var(--moe-line); border-radius: var(--moe-radius-panel); background: var(--moe-surface); color: var(--moe-foreground); }
+  .moe-card { overflow: hidden; border: 1px solid var(--moe-line); border-radius: var(--moe-radius-panel); background: var(--moe-surface); color: var(--moe-foreground); box-shadow: 0 1px 2px color-mix(in srgb, var(--moe-foreground) 4%, transparent); }
   .moe-spinner { display: inline-block; height: 18px; width: 18px; flex-shrink: 0; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: moe-spin 700ms linear infinite; }
   .moe-skeleton { border-radius: var(--moe-radius-control); background: var(--moe-line); animation: moe-pulse 1.7s ease-in-out infinite; }
   @keyframes moe-spin { to { transform: rotate(360deg); } }
