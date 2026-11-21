@@ -6,121 +6,110 @@
       "file": "mascot-auth-welcome.webp",
       "width": 880,
       "height": 1100,
-      "bytes": 83556,
-      "source": "output/illustrations/2026-10-23-first-batch/mascot-auth-welcome.png",
-      "sourceBytes": 674975,
-      "sourceSHA256": "e5e818a6e2b61af94dcb1178eae1d92c3bf68487422aa270dcba2172ec6e48f1",
-      "transparentPixels": 754207
-    },
-    {
-      "key": "not-found",
-      "file": "state-not-found.webp",
-      "width": 480,
-      "height": 480,
-      "bytes": 37252,
-      "source": "output/illustrations/2026-10-23-first-batch/state-not-found.png",
-      "sourceBytes": 895934,
-      "sourceSHA256": "b3d68bc3689f2e9737dbbc9b93dcbf18d86b441bb9cf1163319f7b14a1af5395",
-      "transparentPixels": 163859
+      "bytes": 154392,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/mascot-auth-welcome-v2.png",
+      "sourceBytes": 1097380,
+      "sourceSHA256": "e31bf4e738dd1e39ca7d2a0f84bcc98fbaa2e0032a86b03797a06e05ef8c4e2f",
+      "transparentPixels": 577201
     },
     {
       "key": "no-applications",
       "file": "state-no-applications.webp",
       "width": 480,
       "height": 480,
-      "bytes": 45306,
-      "source": "output/illustrations/2026-10-23-first-batch/state-no-applications.png",
-      "sourceBytes": 1286655,
-      "sourceSHA256": "fcbd61b911f862f357d9fdab333386b5e835c5ff78a0d5050c6238df70bfa111",
-      "transparentPixels": 123886
+      "bytes": 33220,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-no-applications.png",
+      "sourceBytes": 1074682,
+      "sourceSHA256": "40c975040f37efdc44ba85097e49bbd0334bbe95c6a59939e118c82c2540ec6b",
+      "transparentPixels": 133736
     },
     {
       "key": "no-results",
       "file": "state-no-results.webp",
       "width": 480,
       "height": 480,
-      "bytes": 34420,
-      "source": "output/illustrations/2026-10-23-first-batch/state-no-results.png",
-      "sourceBytes": 824127,
-      "sourceSHA256": "2b99466e919a16815858db6b9f7d05006c00cd60b073f535eddab8dc026835a5",
-      "transparentPixels": 170856
+      "bytes": 35198,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-no-results.png",
+      "sourceBytes": 865572,
+      "sourceSHA256": "854201a9d16489ccaddcf040ab7bd6f64eb0a3e2cdc5d17efdbe6189ade8b76c",
+      "transparentPixels": 151188
     },
     {
       "key": "service-unavailable",
       "file": "state-service-unavailable.webp",
       "width": 480,
       "height": 480,
-      "bytes": 43926,
-      "source": "output/illustrations/2026-10-23-first-batch/state-service-unavailable.png",
-      "sourceBytes": 1223692,
-      "sourceSHA256": "59b7b4bdf11c01015b8e6ba2cbac55a459fc94716c2d4932dadd55cf4ee62ffb",
-      "transparentPixels": 133146
+      "bytes": 38136,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-service-unavailable.png",
+      "sourceBytes": 1000329,
+      "sourceSHA256": "523afaa4c3ae826aebac637713334f5e76f7b00b3809bb1a3954505e0b42c46a",
+      "transparentPixels": 135791
     },
     {
       "key": "developer-welcome",
       "file": "mascot-developer-welcome.webp",
       "width": 900,
       "height": 675,
-      "bytes": 62170,
-      "source": "output/illustrations/2026-10-23-second-batch/mascot-developer-welcome.png",
-      "sourceBytes": 707730,
-      "sourceSHA256": "1eb7ea5f637bdef4a26409483c01efc820e5cf75e2e3e530dec480423e1f7996",
-      "transparentPixels": 467845
+      "bytes": 61764,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/mascot-developer-welcome.png",
+      "sourceBytes": 672274,
+      "sourceSHA256": "ab67619c83a407b76f85f213b5bbf7fc52acc2347c7bda8b271ae3e8a94ee33b",
+      "transparentPixels": 458564
     },
     {
       "key": "access-restricted",
       "file": "state-access-restricted.webp",
       "width": 480,
       "height": 480,
-      "bytes": 37120,
-      "source": "output/illustrations/2026-10-23-second-batch/state-access-restricted.png",
-      "sourceBytes": 1011595,
-      "sourceSHA256": "f4b866e87a8f882f6a0d6669d478df3ecf863e1f13b08e2a369f0440b8f40ac8",
-      "transparentPixels": 154094
+      "bytes": 32460,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-access-restricted.png",
+      "sourceBytes": 943272,
+      "sourceSHA256": "99b403fb7fe671016726fd6b1e6b8e9ad947e8eada738abe7008e626bda4886d",
+      "transparentPixels": 144504
     },
     {
       "key": "session-expired",
       "file": "state-session-expired.webp",
       "width": 480,
       "height": 480,
-      "bytes": 34420,
-      "source": "output/illustrations/2026-10-23-second-batch/state-session-expired.png",
-      "sourceBytes": 856267,
-      "sourceSHA256": "f750effa8c21386c83741cf247efe198e20d0c7ca517bb5d59a1becafcb17a9f",
-      "transparentPixels": 168040
+      "bytes": 30682,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-session-expired.png",
+      "sourceBytes": 820933,
+      "sourceSHA256": "27b8998828429c96a0ba71e533f10d6b58d1e0d129933709ecb1a1ffc9e82ec9",
+      "transparentPixels": 155873
     },
     {
       "key": "no-records",
       "file": "state-no-records.webp",
       "width": 480,
       "height": 480,
-      "bytes": 38852,
-      "source": "output/illustrations/2026-10-23-second-batch/state-no-records.png",
-      "sourceBytes": 1078459,
-      "sourceSHA256": "a197f8b987ee7297b8323db58fe220a3534c9f82bc72262cf12fa654cdf17381",
-      "transparentPixels": 142762
+      "bytes": 33208,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-no-records.png",
+      "sourceBytes": 904960,
+      "sourceSHA256": "3329670ef1b4b72e7af31ca598bccaa156fdf4ff50e6290e632e32f98c7c5838",
+      "transparentPixels": 145436
     },
     {
       "key": "complete",
       "file": "state-complete.webp",
       "width": 480,
       "height": 480,
-      "bytes": 30940,
-      "source": "output/illustrations/2026-10-23-second-batch/state-complete.png",
-      "sourceBytes": 755606,
-      "sourceSHA256": "deecf2d4183db220af0087e8431083c70d80728212d69e16e8d6bcd38d4ebf9b",
-      "transparentPixels": 176429
+      "bytes": 31314,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/state-complete.png",
+      "sourceBytes": 811041,
+      "sourceSHA256": "4a53a5d8fb3e28ff9f30265d7b2036325dcccd80f8a1dc499b2be708bd2e05db",
+      "transparentPixels": 159328
     },
     {
       "key": "guide-helper",
       "file": "mascot-guide-helper.webp",
       "width": 480,
       "height": 480,
-      "bytes": 39476,
-      "source": "output/illustrations/2026-10-23-second-batch/mascot-guide-helper.png",
-      "sourceBytes": 1177245,
-      "sourceSHA256": "a7eab2a683f61611c7866b312d23a62bddad6cfd53a6d01eba38bb57ebdb4e5c",
-      "transparentPixels": 127869
+      "bytes": 30558,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/mascot-guide-helper.png",
+      "sourceBytes": 1069230,
+      "sourceSHA256": "6acac038c4b37d33dd579f30559df9c6ecf9c6fcfc175f460267e8e3acaf6049",
+      "transparentPixels": 132345
     },
     {
       "key": "face-neutral",
@@ -132,6 +121,17 @@
       "sourceBytes": 1021289,
       "sourceSHA256": "73d6b4eaf2beef1e3681a6540df74ee24616ccc2047e6d62c4fe459f532f4fad",
       "transparentPixels": 20182
+    },
+    {
+      "key": "not-found",
+      "file": "state-not-found.webp",
+      "width": 480,
+      "height": 480,
+      "bytes": 37970,
+      "source": "output/illustrations/2026-10-23-first-batch/state-not-found.png",
+      "sourceBytes": 895934,
+      "sourceSHA256": "b3d68bc3689f2e9737dbbc9b93dcbf18d86b441bb9cf1163319f7b14a1af5395",
+      "transparentPixels": 163276
     }
   ]
 }
