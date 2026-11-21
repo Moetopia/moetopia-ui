@@ -3,6 +3,7 @@ import { computed, onBeforeUnmount, onMounted, ref, shallowRef, watch, watchEffe
 import Alert from './Alert.vue'
 import Button from './Button.vue'
 import Dialog from './Dialog.vue'
+import Slider from './Slider.vue'
 
 const props = withDefaults(defineProps<{
   file: File
@@ -42,6 +43,13 @@ const failed = ref(false)
 const zoom = ref(1)
 const horizontal = ref(50)
 const vertical = ref(50)
+const sliderModel = (value: typeof zoom) => computed({
+  get: () => [value.value],
+  set: ([next]: number[]) => { if (next !== undefined) value.value = next },
+})
+const zoomSlider = sliderModel(zoom)
+const horizontalSlider = sliderModel(horizontal)
+const verticalSlider = sliderModel(vertical)
 const dragging = ref(false)
 let pointerId: number | undefined
 let dragStart = { x: 0, y: 0, h: 50, v: 50 }
@@ -173,19 +181,10 @@ onBeforeUnmount(() => { dragging.value = false; pointerId = undefined })
             <Button v-if="resetLabel" size="sm" variant="light" color="default" :disabled="!dirty || loading" @click="reset">{{ resetLabel }}</Button>
           </div>
         </div>
-        <label class="moe-crop-slider">
-          <span class="text-xs font-medium text-muted">{{ zoomLabel }}</span>
-          <input v-model.number="zoom" class="moe-crop-range" type="range" min="1" max="4" step="0.01" />
-        </label>
+        <Slider v-model="zoomSlider" :label="zoomLabel" :min="1" :max="4" :step="0.01" :disabled="!image || loading" />
         <div class="grid gap-3 sm:grid-cols-2">
-          <label class="moe-crop-slider">
-            <span class="text-xs font-medium text-muted">{{ horizontalLabel }}</span>
-            <input v-model.number="horizontal" class="moe-crop-range" type="range" min="0" max="100" :disabled="!canPanX" />
-          </label>
-          <label class="moe-crop-slider">
-            <span class="text-xs font-medium text-muted">{{ verticalLabel }}</span>
-            <input v-model.number="vertical" class="moe-crop-range" type="range" min="0" max="100" :disabled="!canPanY" />
-          </label>
+          <Slider v-model="horizontalSlider" :label="horizontalLabel" :disabled="!canPanX || !image || loading" />
+          <Slider v-model="verticalSlider" :label="verticalLabel" :disabled="!canPanY || !image || loading" />
         </div>
       </fieldset>
 

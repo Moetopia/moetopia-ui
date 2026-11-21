@@ -17,9 +17,6 @@
   .moe-crop-grid > span:nth-child(2) { top: 66.66%; left: 0; right: 0; height: 1px; }
   .moe-crop-grid > span:nth-child(3) { left: 33.33%; top: 0; bottom: 0; width: 1px; }
   .moe-crop-grid > span:nth-child(4) { left: 66.66%; top: 0; bottom: 0; width: 1px; }
-  .moe-crop-slider { display: grid; gap: 6px; }
-  .moe-crop-range { width: 100%; height: 6px; accent-color: var(--moe-primary); cursor: pointer; }
-  .moe-crop-range:disabled { opacity: .45; cursor: not-allowed; }
   .moe-user-chip { display: flex; align-items: center; gap: 10px; min-width: 0; }
   .moe-combobox-anchor { position: relative; }
   .moe-combobox-trigger { position: absolute; top: 0; right: 0; display: grid; place-items: center; height: 44px; width: 44px; border-radius: var(--moe-radius-control); color: var(--moe-muted); }
