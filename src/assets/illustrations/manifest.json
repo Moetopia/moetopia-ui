@@ -127,11 +127,11 @@
       "file": "mascot-face-neutral.webp",
       "width": 192,
       "height": 192,
-      "bytes": 12532,
-      "source": "output/illustrations/2026-10-23-second-batch/mascot-face-neutral.png",
-      "sourceBytes": 1370053,
-      "sourceSHA256": "578369ebb41d3b4c8e62f4c5a1945d8ab82a39f7d85689ac007425fc75691a17",
-      "transparentPixels": 17571
+      "bytes": 11320,
+      "source": "output/illustrations/2026-11-21-soft-flat-candidates/mascot-face-neutral.png",
+      "sourceBytes": 1021289,
+      "sourceSHA256": "73d6b4eaf2beef1e3681a6540df74ee24616ccc2047e6d62c4fe459f532f4fad",
+      "transparentPixels": 20182
     }
   ]
 }
